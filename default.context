@@ -50,9 +50,9 @@ $endif$
 \setupstructure[state=start,method=auto]
 
 % use microtypography
-\definefontfeature[default][default][script=latn, protrusion=quality, expansion=quality, itlc=yes, textitalics=yes, onum=yes, pnum=yes]
+\definefontfeature[default][default][script=latn, protrusion=quality, expansion=quality, itlc=yes, textitalics=yes, onum=no, pnum=yes]
 \definefontfeature[default:tnum][default][tnum=yes, pnum=no]
-\definefontfeature[smallcaps][script=latn, protrusion=quality, expansion=quality, smcp=yes, onum=yes, pnum=yes]
+\definefontfeature[smallcaps][script=latn, protrusion=quality, expansion=quality, smcp=yes, onum=no, pnum=yes]
 \setupalign[hz,hanging]
 \setupitaliccorrection[global, always]
 
